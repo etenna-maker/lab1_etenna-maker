@@ -11,7 +11,7 @@ A Python application that reads a student's course grades from a CSV file, valid
 - Calculates the weighted final grade and GPA (out of 5.0)
 - Determines Pass/Fail status based on 50% minimum in both categories
 - Identifies which failed Formative assignment is eligible for resubmission
-
+- - GPA is calculated using the formula: (Total Grade / 100) × 5.0
 ---
 
 ## Files
