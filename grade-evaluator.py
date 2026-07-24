@@ -109,7 +109,7 @@ def evaluate_grades(data):
             if assignment['weight'] == highest_weight:
                 print(f"  - {assignment['assignment']} (Weight: {assignment['weight']}, Score: {assignment['score']})")
     else:
-        print("\nNo failed Formative assignments. No resubmission needed.")git add grade-evaluator.py
+        print("\nNo failed Formative assignments. No resubmission needed.")
 
 if __name__ == "__main__":
     course_data = load_csv_data()
